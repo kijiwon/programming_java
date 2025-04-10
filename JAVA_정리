@@ -285,3 +285,31 @@
                 System.out.println("야옹"); 
             }
         }
+
+14. 문자열 메소드
+    ○ 문자열 조작 메소드
+        •length(): 문자열 길이 반환
+        •charAt(a): a번 인덱스에 있는 문자 반환
+        •substring(a, b): a번 인덱스부터 b번 인덱스 전까지의 문자열 반환
+        •replace(a, b): a를 b로 대체(변경)
+        •toUpperCase(): 대문자로 변환
+        •toLowerCase(): 소문자로 변환
+        •trime(): 문자열 양 끝 공백 제거
+    
+    ○ 문자열 검색 메소드
+        •indexOf(a): 문자열 내 a가 나타나는 첫 번째 인덱스 반환. 없는 경우 -1
+        •lastIndexOf(a): 문자열 내 a가 나타나는 마지막 인덱스 반환. 없는 경우 -1
+        •contains(a): 문자열 내 a가 포함되어 있는지 확인. true/false
+        •startsWith(a): 문자열이 a로 시작하는지 확인. true/false
+        •endsWith(a): 문자열이 a로 끝나는지 확인. true/false
+
+    ○ 문자열 비교 메소드
+        •a.equals(b): a와 b가 같은 문자열인지 비교
+        •a.equalsIgnoreCase(b): 대소문자를 무시하고 a와 b가 같은 문자열인지 비교
+        •a.compareTo(b): a와 b를 유니코드로 비교. 같은 경우 0, 다른 경우 음수 또는 양수 리턴(문자열의 차이만큼)
+
+    ○ 기타 문자열 메소드
+        •split(a): 문자열을 a를 기준으로 분리해 배열로 반환
+        •a.concat(b): a에 b를 이어붙임
+        •isEmpty(): 문자열이 비어있는지 확인
+        •join(delimiter, elements): 여러 문자열을 특정 구분자로 연결
